@@ -1,0 +1,20 @@
+{
+    "name": "zantolov/zamb-ecommerce",
+    "description": "Zamb Ecommerce package",
+    "authors": [
+        {
+            "name": "Zoran Antolovic",
+            "email": "zokadgo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "zantolov/zamb": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Zantolov\\Zamb\\Ecommerce\\": "src/ecommerce"
+        }
+    }
+}
