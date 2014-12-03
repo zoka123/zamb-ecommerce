@@ -1,6 +1,6 @@
 <?php
 
-namespace Zantolov\Zamb\Controller\Admin;
+namespace Zantolov\ZambEcommerce\Controller\Admin;
 
 use Zantolov\Zamb\Controller\AdminCRUDController;
 
