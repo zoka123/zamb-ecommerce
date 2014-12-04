@@ -31,12 +31,7 @@ class Product extends BaseModel
 
     public function tagsSave($tags)
     {
-        if (!empty($tags)) {
-            $this->tags()->sync($tags);
-        } else {
-            $this->tags()->detach();
-        }
-
+        $this->tags()->sync($tags);
     }
     /**********************/
     /* RELATED MODELS END */
