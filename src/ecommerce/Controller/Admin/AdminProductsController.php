@@ -2,7 +2,12 @@
 
 namespace Zantolov\ZambEcommerce\Controller\Admin;
 
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Response;
 use Zantolov\Zamb\Controller\AdminCRUDController;
+use Bllim\Datatables\Facade\Datatables;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Input;
 
 class AdminProductsController extends AdminCRUDController
 {
@@ -117,7 +122,7 @@ class AdminProductsController extends AdminCRUDController
 
     }
 
-
+    
     /**
      * Override with custom params for this method
      * @return Response
@@ -128,6 +133,7 @@ class AdminProductsController extends AdminCRUDController
         $this->setParamsForMethod('getCreate', $params);
         return parent::getCreate();
     }
+
 
     /**
      * Override with custom params for this method
