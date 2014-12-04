@@ -2,7 +2,8 @@
 
 namespace Zantolov\ZambEcommerce\Blueprints;
 
-interface OrderableInterface
+
+trait PriceableTrait
 {
 
-}
+} 
